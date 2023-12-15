@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Ajax_Show";
+}
+
+<h2>Ajax_Show</h2>
+<nav>
+    <a class="navlink" href="/Teacher/List">Back To Teachers</a>
+    <a class="dellink" id="deleteLink" href="">Delete</a>
+    <a class="navlink" id="updateLink" href="">Update</a>
+</nav>
+<h2 id="name"></h2>
+<p id="EmpNum"></p>
+<p id="date" style="font-style:italic;"></p>
+<p id="sal" ></p>
+
+<script>
+    //Subsequent calls are made through ShowTeacher (found in /Scripts/Teachers.js)
+    ShowTeacher(@ViewBag.TeacherId)
+</script>

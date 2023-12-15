@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Ajax_List";
+}
+<div id="containerlist">
+    <nav>
+        <a class="navlink" href="/Teacher/Add">New Teacher</a>
+    </nav>
+    <h2>List of Teachers</h2>
+    <form action="/Teacher/List" method="GET">
+        <input type="text" name="SearchKey" autocomplete="off" />
+        <input type="submit" value="Search" />
+    </form>
+    <div id="listteachers">
+    </div>
+
+    <script>
+        //Subsequent calls are made through _ListTeachers (found in /Scripts/Teachers.js)
+        ListTeachers("");
+    </script>
+</div>
