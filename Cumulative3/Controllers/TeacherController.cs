@@ -41,7 +41,7 @@ namespace Cumulative3.Controllers
             {
                 TempData["ErrorMessage"] = ex.Message;
                 //Debug.WriteLine(ex.Message);
-                return RedirectToAction("Error", "Home");
+                return RedirectToAction("Error", "Teacher");
             }
         }
 
@@ -63,7 +63,7 @@ namespace Cumulative3.Controllers
             catch (Exception ex)
             {
                 TempData["ErrorMessage"] = ex.Message;
-                return RedirectToAction("Error", "Home");
+                return RedirectToAction("Error", "Teacher");
             }
         }
 
@@ -108,7 +108,7 @@ namespace Cumulative3.Controllers
             catch (Exception ex)
             {
                 TempData["ErrorMessage"] = ex.Message;
-                return RedirectToAction("Error", "Home");
+                return RedirectToAction("Error", "Teacher");
             }
 
 
@@ -132,7 +132,7 @@ namespace Cumulative3.Controllers
             catch (Exception ex)
             {
                 TempData["ErrorMessage"] = ex.Message;
-                return RedirectToAction("Error", "Home");
+                return RedirectToAction("Error", "Teacher");
             }
         }
 
@@ -148,7 +148,7 @@ namespace Cumulative3.Controllers
             catch (Exception ex)
             {
                 TempData["ErrorMessage"] = ex.Message;
-                return RedirectToAction("Error", "Home");
+                return RedirectToAction("Error", "Teacher");
             }
         }
 
@@ -188,7 +188,7 @@ namespace Cumulative3.Controllers
             catch (Exception ex)
             {
                 TempData["ErrorMessage"] = ex.Message;
-                return RedirectToAction("Error", "Home");
+                return RedirectToAction("Error", "Teacher");
             }
 
 
